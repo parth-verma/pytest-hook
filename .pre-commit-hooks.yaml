@@ -1,0 +1,6 @@
+- id: pytest
+  name: Run pytest
+  description: Executes all pytests. Exits on first error
+  entry: pytest 
+  language: system
+  files: \test*.py$
